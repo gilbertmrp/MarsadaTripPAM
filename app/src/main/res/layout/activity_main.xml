@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:background="#fff">
 
-        <com.google.android.material.appbar.MaterialToolbar
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:menu="@menu/top_app_bar">
@@ -23,7 +24,8 @@
                 android:layout_height="50dp"
                 android:src="@drawable/img"/>
 
-        </com.google.android.material.appbar.MaterialToolbar>
+        </androidx.appcompat.widget.Toolbar>
+
 
     </com.google.android.material.appbar.AppBarLayout>
 

@@ -1,7 +1,11 @@
 package com.example.marsadatripapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.example.marsadatripapp.databinding.ActivityMainBinding
@@ -19,14 +23,27 @@ class MainActivity : AppCompatActivity() {
 
         getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.status_bar))
 
+        binding.toolbar.setOnMenuItemClickListener {
+            when(it.itemId) {
+                R.id.profile_account -> {
+                    val intent = Intent(this, ProfileActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+            }
+        }
+
         binding.bottomNav.setOnNavigationItemSelectedListener {
             when(it.itemId) {
                 R.id.home -> replaceFragment(HomeFragment())
                 R.id.car -> replaceFragment(CarFragment())
-                R.id.cart -> replaceFragment(CartFragment())
                 R.id.contact -> replaceFragment(ContactFragment())
             }
-
             true
         }
 

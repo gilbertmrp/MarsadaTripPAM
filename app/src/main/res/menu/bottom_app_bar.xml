@@ -12,11 +12,6 @@
         android:title="Car"/>
 
     <item
-        android:id="@+id/cart"
-        android:icon="@drawable/baseline_shopping_cart_24"
-        android:title="Pesanan"/>
-
-    <item
         android:id="@+id/contact"
         android:icon="@drawable/baseline_contacts_24"
         android:title="Contact"/>
