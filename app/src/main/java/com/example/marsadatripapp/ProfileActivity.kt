@@ -1,10 +1,10 @@
 package com.example.marsadatripapp
 
-import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.marsadatripapp.auth.LoginActivity
-import com.example.marsadatripapp.auth.RegisterActivity
+import androidx.core.content.ContextCompat
 import com.example.marsadatripapp.databinding.ActivityProfileBinding
 
 class ProfileActivity : AppCompatActivity() {
@@ -15,15 +15,6 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        binding.btnRegister.setOnClickListener {
-            val intent = Intent(this, RegisterActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.btnLogin.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-        }
+        getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.status_bar))
     }
 }

@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="outline_text">#002B5B</color>
     <color name="status_bar">#CFCCCC</color>
+    <color name="icon_cart">#1A5F7A</color>
+    <color name="icon_info">#57C5B6</color>
+    <color name="icon_exit">#F22525</color>
 </resources>
