@@ -1,9 +1,21 @@
 package com.example.marsadatripapp.model
 
-data class Car (
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+data class Car(
     val id: Int,
-    val nama_mobil: String,
-    val gambar: String,
+    val merk: String,
+    val jenis: String,
     val lokasi: String,
-    val badges: String
+    val jlh_penumpang: String,
+    val cooler: String,
+    val transmisi: String,
+    val jlh_pintu: String,
+) : Parcelable
+
+data class Data(
+    val data:List<Car>
 )
+

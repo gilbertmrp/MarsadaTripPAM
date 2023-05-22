@@ -7,12 +7,68 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="nama_lenkap">Nama Lenkap</string>
-    <string name="belum_memiliki_akun_daftar">Belum memiliki akun? daftar</string>
-    <string name="sudah_memiliki_akun_login">Sudah memiliki akun? login</string>
+    <string name="belum_memiliki_akun">Belum memiliki akun? </string>
+    <string name="daftar">daftar</string>
+    <string name="login1">login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pemesanan">Pemesanan</string>
     <string name="aplikasi_versi_1_0_0">Aplikasi Versi 1.0.0</string>
     <string name="dashboard">Dashboard</string>
     <string name="keluar">Keluar</string>
+    <string name="badges">Badges</string>
+    <string name="ride_premium_car">Ride Premium Car</string>
+    <string name="kenapa_pilih_marsadatrip">Kenapa Pilih MarsadaTrip?</string>
+
+    <string name="desc1">
+        MarsadaTrip menyediakan kendaraan yang selalu prima, siap mengantar ke seluruh tujuan. Banyak pelanggan yang menggunakan jasa rental ini untuk keperluan dinas, pernikahan, wisuda, dan berwisata. Semua kendaraan yang tersedia selalu bersih dan wangi. Hal ini membuat penumpang akan nyaman berkendara dan menempuh perjalanan dengan menggunakan unit dari rental mobil Toba..
+        - Ada Dimana-mana
+        - Harga Ekonomis
+        - Service Excellent
+        - Fitur Lengkap
+        Unit yang tersedia pun sangat beragam. Mulai dari jenis kendaraan biasa sampai kendaraan eksklusif. Untuk sistem sewa, tersedia juga berbagai pilihan. Tentu saja hal ini semakin memberi kenyamanan bagi penyewa. Selain untuk keperluan pribadi dengan waktu peminjaman terbatas, Anda juga dapat menyewa unit untuk jangka waktu tertentu. Sudah banyak perusahaan yang bekerja sama dengan rental mobil Toba dalam menyediakan kendaraan untuk bisnis. Apapun jenis rental mobil Toba keperluan Anda terkait dengan sewa menyewa mobil, Rental Mobil Toba satu ini menjadi jawaban paling tepat. Jika membutuhkan jasa rental mobil, segera hubungi kontak yang tersedia. Kepuasan dan kepercayaan pelanggan terbukti dengan tingginya repeat order yang dilakukan. Anda juga dapat merekomendasikan rental mobil Toba terpercaya ini pada kolega, teman dan kerabat yang sedang membutuhkan jasa pindahan, jasa sewa kendaraan. Rental Mobil Toba selalu menyediakan kendaraan prima yang sidap Anda gunakan. Semua fasilitas yang tersedia dapat Anda nikmati dengan biaya sewa yang terjangkau. Untuk keperluan kendaraan Anda, percayakan pada rental mobil Toba.Kepuasan Anda adalah tujuan dari Rental Mobil Toba MarsadaTrip.
+    </string>
+    <string name="service">Service</string>
+    <string name="kondisi_armada_baik">Kondisi armada baik</string>
+    <string name="desc2">Kami rental mobil yang memberkan kenyamanan dengan kondisi kendaraan terbaik dan ternyaman.</string>
+    <string name="desc3">Demi kenyamanan dan kenyamanan dalam perjalanan kami menyiapkan sopir yang ramah dan berpengalaman.</string>
+    <string name="desc4">Untuk menjangkau pelanggan, kami memberikan harga terjangkau dan menyediakan kendaraan dalam kondisi layak di pakai dalam perjalanan.</string>
+    <string name="pelayanan_terbaik">Pelayanan Terbaik</string>
+    <string name="driver_berpengalaman">Driver Berpengalaman</string>
+    <string name="hai">Hai!</string>
+    <string name="acc">Silahkan masuk terlebih dahulu dengan akun anda untuk lanjut menggunakan aplikasi MarsadaTrip atau daftar terlebih dahulu</string>
+    <string name="profile">PROFILE</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="wish_list">Wish List</string>
+    <string name="riwayat_belanja">Riwayat belanja</string>
+    <string name="ubah_password">Ubah Password</string>
+    <string name="ubah_profile">Ubah Profile</string>
+    <string name="verison_1_0_0">Verison 1.0.0</string>
+    <string name="simpan">Simpan</string>
+    <string name="kata_sandi_baru">Kata sandi baru</string>
+    <string name="kata_sandi_saat_ini">Kata sandi saat ini</string>
+    <string name="pesan">Pesan</string>
+    <string name="lokasi">Lokasi:</string>
+    <string name="detail">Detail</string>
+    <string name="nama_mobil">Nama Mobil</string>
+    <string name="tanggal_berangkat">Tanggal Berangkat</string>
+    <string name="dd_mm_yyyy">dd/MM/yyyy</string>
+    <string name="menggunakan_driver_marsada_trip">Menggunakan Driver Marsada Trip?</string>
+    <string name="tidak">Tidak</string>
+    <string name="ya">Ya</string>
+    <string name="kembali_ke_menu_utama">Kembali ke menu utama</string>
+    <string name="pemesanan_mobil_berhasil">Pemesanan mobil berhasil!</string>
+    <string name="_5">5</string>
+    <string name="jenis_mobil">Jenis_mobil</string>
+    <string name="new_cars">New cars</string>
+    <string name="penumpang">Penumpang</string>
+    <string name="air_conditioner">Air Conditioner</string>
+    <string name="done">Done</string>
+
+    <array name="details">
+        <item>Detail</item>
+        <item>Booking</item>
+        <item>Finish</item>
+    </array>
 </resources>

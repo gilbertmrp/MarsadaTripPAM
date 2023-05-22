@@ -3,16 +3,18 @@ package com.example.marsadatripapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import com.example.marsadatripapp.car.CarFragment
+import com.example.marsadatripapp.profile.AkunActivity
 import com.example.marsadatripapp.databinding.ActivityMainBinding
+import com.example.marsadatripapp.helper.SharedPref
+import com.example.marsadatripapp.profile.ProfileActivity
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var sp: SharedPref
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,14 +23,22 @@ class MainActivity : AppCompatActivity() {
         replaceFragment(HomeFragment())
         supportActionBar?.hide()
 
+        sp = SharedPref(this)
+
         getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.status_bar))
 
         binding.toolbar.setOnMenuItemClickListener {
             when(it.itemId) {
                 R.id.profile_account -> {
-                    val intent = Intent(this, ProfileActivity::class.java)
-                    startActivity(intent)
-                    true
+                    if(sp.getStatus()) {
+                        val intent = Intent(this, ProfileActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }else {
+                        val intent = Intent(this, AkunActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }
                 }
                 else -> {
                     val intent = Intent(this, MainActivity::class.java)
@@ -46,6 +56,10 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
+    }
+
+    override fun onBackPressed() {
 
     }
 

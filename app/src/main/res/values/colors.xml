@@ -12,4 +12,6 @@
     <color name="icon_cart">#1A5F7A</color>
     <color name="icon_info">#57C5B6</color>
     <color name="icon_exit">#F22525</color>
+    <color name="desc">#838282</color>
+    <color name="service1">#838282</color>
 </resources>
